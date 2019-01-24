@@ -1,0 +1,10 @@
+
+
+
+# python ignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+migrations
+*.pyc

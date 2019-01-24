@@ -1,0 +1,6 @@
+        <div class="search" style="float:left;">
+            <form action="/" method="GET">{% csrf_token %}
+         <input style="" name="mccx" type="text" placeholder="输入需要查询的事项...">
+         <button type="submit" style="color: #ffffff; ">搜&nbsp;&nbsp;索</button>
+            </form>
+        </div>

@@ -1,0 +1,176 @@
+﻿html,body{  
+    height: 100%;
+margin: 0px;
+padding: 0px;	
+} 
+.all {
+
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center top;
+    width: 100%;
+	height:100%;
+}
+
+.header{
+    background: url(/static/img/zhishui_header3.png) bottom center no-repeat;
+    background-size:100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 24%;
+    z-index: 4;
+	pointer-events:none;
+
+}
+.header img{
+	width:70%;
+}
+
+.contain{
+    text-align: left;
+	width:100%;
+}
+.contain img{
+}
+li{
+	list-style:none;
+}
+.search{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.search input{
+  position:relative;
+  width: 60%;
+  height: 20px;
+  padding-left: 10px;
+  border: 1px solid rgb(51,105,163);
+  border-radius: 1px 0 0 1px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+  float: left;
+  font-size: 15px;
+  margin-left: 7%;
+padding-top:0;
+  margin-top:0;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+
+.search button{
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 22px;
+  border: 0px solid rgb(51,105,163);
+  background: rgb(51,105,163);
+  border-radius: 0 1px 1px 0;
+  cursor: pointer;
+  float: left;
+  font-size:15px;
+  padding-top:0;
+  margin-top:0;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+
+.backup {
+  border: 0px solid rgb(51,105,163);
+  background: rgba(51,105,163,0.3);
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+}
+.backup a{
+	color: rgba(51,105,163,1);
+    text-decoration: none;
+}
+
+div.event {
+    width: 100%;
+
+}
+.event a{
+}
+.event a:hover{
+    color:#9cf;
+    text-decoration: none;
+}
+
+.detial{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+    z-index:1;
+    top:100px;
+    left: 6%;
+    float: left;
+    padding-left: 2%;
+
+}
+.detial h2{
+    font-size: 10px;
+    width: 90%;
+    color: #669;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    font-family: "Microsoft YaHei", 微软雅黑, Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.detial h1{
+    font-size: 30%;
+    font-weight: normal;
+    width: 90%;
+    color: #669;
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    text-blink: 2em;
+    text-indent: 2em;
+    line-height: 30px;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    font-family: "Microsoft YaHei", 微软雅黑, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.newcontent img{
+	width: 80%;
+	
+}
+
+.newcontent p{
+
+	color: #669;
+}
+.newcontent span{
+
+	color: #669;
+}
+
+.footer{
+    background: url(/static/img/zhishui_footer3.png) bottom center no-repeat;
+    background-size:100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+pointer-events:none;
+}
+
+.footer a{
+	text-decoration:none;
+}
+
+
+
+
+
