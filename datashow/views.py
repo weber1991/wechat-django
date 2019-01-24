@@ -7,9 +7,9 @@ from datashow.selectWaitingCountNoWork import selectWaitingCountNoWork
 import datetime
 from datashow.UsePymysql0 import dateQuery
 import pymssql
-import sys
-reload(sys)
-sys.setdefaultencoding("utf8")
+#import sys
+#reload(sys)
+#sys.setdefaultencoding("utf8")
 
 # Create your views here.
 
@@ -31,8 +31,8 @@ def index(req):
             print('this is no work.')
             dataList = selectWaitingCountNoWork()
             return render_to_response('indexShowData.html', {'dataList': dataList})
-    except Exception, e:
-        print e
+    except Exception as e:
+        # print e
         dataList = {}
         return render_to_response('indexError.html', {'dataList':dataList})
 
@@ -68,7 +68,7 @@ def getZhishui():
     )
     cur = conn.cursor()
     if not cur:
-        print 'error'
+        print('error')
         raise Exception('error')
 
     sql = "select * from tblNews where Title like '%治理%'"
@@ -124,7 +124,7 @@ def getNew(id):
     )
     cur = conn.cursor()
     if not cur:
-        print 'error'
+        print('error')
         raise Exception('error')
 
     sql = "select * from tblNews where Title like '%治理%'"
