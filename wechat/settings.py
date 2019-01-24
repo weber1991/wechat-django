@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'wechat.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'qqs',
-        'USER':'zhengwufuwu',
-        'PASSWORD':'zhengwufuwu2017',
+        'NAME':'wechat', # 'qqs',
+        'USER':'wechat', # 'zhengwufuwu',
+        'PASSWORD':'wechatuse123', # 'zhengwufuwu2017',
         'HOST':'localhost',
         'PORT':'3306',
     }
@@ -141,6 +141,6 @@ STATICFILES_FINDERS = (
 )
 
 
-ALLOWED_HOSTS = ['61.145.223.28', '*','wait.dalang.in']
+ALLOWED_HOSTS = ['*',]
 
 
